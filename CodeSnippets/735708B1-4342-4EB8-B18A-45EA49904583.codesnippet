@@ -3,22 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>cbl</string>
+	<string>clogsel</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>itShouldBehaveLike(@"&lt;#shared behavior description#&gt;");</string>
+	<string>NSLog(@"================&gt; %@", NSStringFromSelector(_cmd));</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>D6803E25-A620-4020-974E-2A246BD62127</string>
+	<string>735708B1-4342-4EB8-B18A-45EA49904583</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Log the current selector name</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Cedar should behave like</string>
+	<string>Log current selector</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
