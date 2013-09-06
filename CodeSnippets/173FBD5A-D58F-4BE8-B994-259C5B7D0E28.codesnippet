@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>clogsel</string>
+	<string>cerr</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>NSLog(@"================&gt; %@", NSStringFromSelector(_cmd));</string>
+	<string>[NSError errorWithDomain:@"SPEC" code:666 userInfo:@{}]</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>735708B1-4342-4EB8-B18A-45EA49904583</string>
+	<string>173FBD5A-D58F-4BE8-B994-259C5B7D0E28</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Log the current selector name</string>
+	<string>An error for use in specs</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Log current selector</string>
+	<string>Spec Error</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
