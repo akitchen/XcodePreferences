@@ -146,6 +146,28 @@
 				<key>Title</key>
 				<string>Balance Delimiter</string>
 			</dict>
+			<dict>
+				<key>Action</key>
+				<string>createExceptionBreakpoint:</string>
+				<key>Alternate</key>
+				<string>NO</string>
+				<key>CommandID</key>
+				<string>Xcode.IDEKit.CmdDefinition.CreateExceptionBreakpoint</string>
+				<key>Group</key>
+				<string>Debug Menu</string>
+				<key>GroupID</key>
+				<string>Xcode.IDEKit.MenuDefinition.Main</string>
+				<key>GroupedAlternate</key>
+				<string>NO</string>
+				<key>Keyboard Shortcut</key>
+				<string>^~@\\</string>
+				<key>Navigation</key>
+				<string>NO</string>
+				<key>Parent Title</key>
+				<string>Breakpoints</string>
+				<key>Title</key>
+				<string>Create Exception Breakpoint…</string>
+			</dict>
 		</array>
 		<key>Version</key>
 		<integer>3</integer>
