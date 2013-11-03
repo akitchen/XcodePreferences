@@ -7,6 +7,7 @@ DIRS = ['CodeSnippets', 'FontAndColorThemes', 'KeyBindings']
 FILES_IN_DIRS = []
 DEST = File.expand_path('~/Library/Developer/Xcode/UserData')
 
+task :default => 'symlink:all'
 namespace :symlink do
   desc "Symlinks dirs #{DIRS.join(",")} and all files in #{FILES_IN_DIRS.join(",")} into editor preferences folder"
   task :all => DIRS + FILES_IN_DIRS
@@ -98,4 +99,3 @@ def run(cmd)
   puts "Running :#{cmd}\n\n"
   `#{cmd}`
 end
-
