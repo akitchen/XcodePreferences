@@ -3,24 +3,29 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>cstub</string>
+	<string>ceq</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>stub_method(@selector(&lt;#selector#&gt;))</string>
+	<string>- (BOOL)isEqual:(id)object {
+    if (object isKindOfClass:[self class]) {
+        return NO;
+    }
+    return &lt;#expression#&gt;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>2D3D53CF-45EB-4B89-BCFE-5F4CB04AC9BE</string>
+	<string>749EB3B0-C225-4F38-B579-43499CB6D546</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>when in doubt, stub it out</string>
+	<string>base implementation of isEqual</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Cedar Doubles - stub_method</string>
+	<string>-[NSObject isEqual]</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
