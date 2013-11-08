@@ -10,8 +10,8 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>- (BOOL)isEqual:(id)object {
-    if (object isKindOfClass:[self class]) {
-        return NO;
+if (![object isKindOfClass:[self class]]) {
+    return NO;
     }
     return &lt;#expression#&gt;
 }</string>
