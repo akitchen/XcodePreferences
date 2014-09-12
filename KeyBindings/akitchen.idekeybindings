@@ -52,6 +52,54 @@
 			</dict>
 			<dict>
 				<key>Action</key>
+				<string>updateFramesToMatchConstraintsInArbitrationUnit:</string>
+				<key>Alternate</key>
+				<string>NO</string>
+				<key>CommandGroupID</key>
+				<string>Xcode.InterfaceBuilderKit.CmdDefinition.UpdateFramesInLayoutGroup</string>
+				<key>CommandID</key>
+				<string>Xcode.InterfaceBuilderKit.CmdDefinition.UpdateFramesInLayoutGroup</string>
+				<key>Group</key>
+				<string>Editor Menu for Interface Builder - Storyboard</string>
+				<key>GroupID</key>
+				<string>Xcode.InterfaceBuilderKit.DocumentEditorMenu</string>
+				<key>GroupedAlternate</key>
+				<string>NO</string>
+				<key>Keyboard Shortcut</key>
+				<string>^~@=</string>
+				<key>Navigation</key>
+				<string>NO</string>
+				<key>Parent Title</key>
+				<string>Resolve Auto Layout Issues</string>
+				<key>Title</key>
+				<string>Update Frames</string>
+			</dict>
+			<dict>
+				<key>Action</key>
+				<string>updateConstraintConstantsInArbitrationUnit:</string>
+				<key>Alternate</key>
+				<string>NO</string>
+				<key>CommandGroupID</key>
+				<string>Xcode.InterfaceBuilderKit.CmdDefinition.UpdateConstraintConstantsInLayoutGroup</string>
+				<key>CommandID</key>
+				<string>Xcode.InterfaceBuilderKit.CmdDefinition.UpdateConstraintConstantsInLayoutGroup</string>
+				<key>Group</key>
+				<string>Editor Menu for Interface Builder - Storyboard</string>
+				<key>GroupID</key>
+				<string>Xcode.InterfaceBuilderKit.DocumentEditorMenu</string>
+				<key>GroupedAlternate</key>
+				<string>NO</string>
+				<key>Keyboard Shortcut</key>
+				<string>^~@+</string>
+				<key>Navigation</key>
+				<string>NO</string>
+				<key>Parent Title</key>
+				<string>Resolve Auto Layout Issues</string>
+				<key>Title</key>
+				<string>Update Constraints</string>
+			</dict>
+			<dict>
+				<key>Action</key>
 				<string>balance:</string>
 				<key>Alternate</key>
 				<string>NO</string>
