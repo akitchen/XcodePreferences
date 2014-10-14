@@ -3,26 +3,33 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ceq</string>
+	<string>iseq</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (BOOL)isEqual:(id)object {
-if (![object isKindOfClass:[self class]]) {
-    return NO;
+	<string>- (BOOL)isEqual:(id)other {
+    if (other == self) {
+        return YES;
+    } else if (![other isKindOfClass:[self class]]) {
+        return NO;
+    } else {
+        return &lt;#comparison expression#&gt;;
     }
-    return &lt;#expression#&gt;
+}
+
+- (NSUInteger)hash {
+    return &lt;#hash expression#&gt;;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>749EB3B0-C225-4F38-B579-43499CB6D546</string>
+	<string>167924E9-53B2-411E-83E5-676C001DB103</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>base implementation of isEqual</string>
+	<string>base implementation of equality check</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>-[NSObject isEqual]</string>
+	<string>isEqual and hash</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

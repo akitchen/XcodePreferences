@@ -3,22 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>cdo</string>
+	<string>cblcont</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>and_do_block(^&lt;#return type#&gt;(&lt;#args#&gt;) { &lt;#block body#&gt;; })</string>
+	<string>itShouldBehaveLike(@"&lt;#shared behavior description#&gt;", ^(NSMutableDictionary *context) {
+    context[@"&lt;#context key#&gt;"] = &lt;#context value#&gt;;
+});</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>F4B36F54-C624-4105-AF80-83CE83CF2472</string>
+	<string>3EAE8F83-2880-4D4A-BBEE-46D26D2399F5</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Cedar and_do_block()</string>
+	<string>Cedar should behave like with context</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
 	<integer>2</integer>
+	<key>isCedarSnippet</key>
+	<true/>
 </dict>
 </plist>
