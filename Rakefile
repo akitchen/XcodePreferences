@@ -7,7 +7,7 @@ DIRS = ['CodeSnippets', 'FontAndColorThemes', 'KeyBindings']
 FILES_IN_DIRS = []
 DEST = File.expand_path('~/Library/Developer/Xcode/UserData')
 
-task :default => 'symlink:all'
+task :default => ['symlink:all', 'update_prefs']
 namespace :symlink do
   desc "Symlinks dirs #{DIRS.join(",")} and all files in #{FILES_IN_DIRS.join(",")} into editor preferences folder"
   task :all => DIRS + FILES_IN_DIRS
@@ -28,6 +28,19 @@ namespace :symlink do
       end
     end
   end
+end
+
+desc "Updates a handful of internal Xcode preferences so that you don't have to waste time hunting around for them"
+task :update_prefs do
+  puts "Updating Xcode Preferences..."
+  run('defaults write com.apple.dt.Xcode DVTTextShowLineNumbers -bool true')
+  run('defaults write com.apple.dt.Xcode IDEEditorCoordinatorTarget_Click FocusedEditor')
+  run('defaults write com.apple.dt.Xcode DVTTextWrappedLinesIndentWidth -int 2')
+  run('defaults write com.apple.dt.Xcode IDEKeyBindingCurrentPreferenceSet akitchen.idekeybindings')
+  run('defaults write com.apple.dt.Xcode IDEBuildingContinueBuildingAfterErrors -bool true')
+  run('defaults write com.apple.dt.Xcode IDEEditorCoordinatorTarget_DoubleClick SeparateTab')
+  run('defaults write com.apple.dt.Xcode DVTTextEditorTrimWhitespaceOnlyLines -bool true')
+  run('defaults write com.apple.dt.Xcode DVTFontAndColorCurrentTheme akitchen.dvtcolortheme')
 end
 
 namespace :reset do
