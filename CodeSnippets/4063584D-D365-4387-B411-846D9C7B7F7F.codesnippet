@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>dnr</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>+ (instancetype)new {
+    [self doesNotRecognizeSelector:_cmd];
+    return nil;
+}
+
+- (id)init {
+    [self doesNotRecognizeSelector:_cmd];
+    return nil;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>4063584D-D365-4387-B411-846D9C7B7F7F</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Disable -init and +new at runtime</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Unrecognize no-arg initializers</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
