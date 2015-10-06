@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>it(@"should &lt;#expected behavior#&gt;", PENDING);</string>
+	<string>it(@"&lt;#expected behavior#&gt;", PENDING);</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>4b9ce7c4-0a57-188b-a563-34190399aa52</string>
 	<key>IDECodeSnippetLanguage</key>
