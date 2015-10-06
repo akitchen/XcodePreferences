@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>it(@"should &lt;#expected behavior#&gt;", ^{
+	<string>it(@"&lt;#expected behavior#&gt;", ^{
     &lt;#content#&gt;
 });</string>
 	<key>IDECodeSnippetIdentifier</key>
